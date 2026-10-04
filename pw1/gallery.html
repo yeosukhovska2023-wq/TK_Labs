@@ -1,18 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Галерея фото</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images.ico">
+    <title>Галерея фото — Подорожі дружби</title>
 </head>
 <body>
-    <h1>Галерея фото</h1>
-    <section id="photo-gallery" class="photo-gallery">
-        <ul>
-            <li><figure><img src="files.jpg" alt="Батьківщина-мати" width="300"><p>Батьківщина-мати</p></figure></li>
-                       <li><figure><img src="risunok8.jpg" alt="Будинок з химерами" width="300"><p>Будинок з химерами</p></figure></li>
-            <li><figure><img src="risunok5.jpg" alt="Будинок органної та камерної музики" width="300"><p>Будинок органної та камерної музики</p></figure></li>
+    <header>
+        <img src="images.ico" alt="Логотип" width="100">
+        <h1>Подорожі дружби: відкриваючи світ разом</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна сторінка</a></li>
+                <li><a href="gallery.html">Галерея фото</a></li>
+                <li><a href="city.html">Міста</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a href="sub.html">Підписка</a></li>
+            </ul>
+        </nav> 
+    </header>
 
-    </section>
+    <main>
+        <h1>Галерея фото</h1>
+        <section id="photo-gallery" class="photo-gallery">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="files.jpg" alt="Батьківщина-мати">
+                        <figcaption>Батьківщина-мати</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="risunok8.jpg" alt="Будинок з химерами">
+                        <figcaption>Будинок з химерами</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="risunok5.jpg" alt="Будинок органної та камерної музики">
+                        <figcaption>Будинок органної та камерної музики</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="about.html">Про нас</a>
+            <br>
+            <a href="adress.html">Адреса</a>
+            <p>&copy; 2026 Коледж інформаційних технологій</p>
+        </div>
+    </footer>
 </body>
 </html>

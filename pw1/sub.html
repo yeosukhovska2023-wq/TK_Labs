@@ -1,29 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Підписка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images.ico">
+    <title>Підписка — Подорожі дружби</title>
 </head>
 <body>
-    <form action="." method="post" enctype="multipart/form-data">
-            <h2>Персональні дані</h2>
+    <header>
+        <img src="images.ico" alt="Логотип" width="100">
+        <h1>Подорожі дружби: відкриваючи світ разом</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна сторінка</a></li>
+                <li><a href="gallery.html">Галерея фото</a></li>
+                <li><a href="city.html">Міста</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a href="sub.html">Підписка</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <main>
+        <h1>Підписка</h1>
+        <form action="#" method="post">
             <fieldset>
-                <legend>Підписки для отримання оновлень блогу</legend>
-                <p><label for="email">Email:</label>
+                <legend>Підписка для отримання оновлень блогу</legend>
+                
+                <p>
+                    <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required placeholder="Введіть ваш email">
-        
                 </p>
-                <p><label for="form">Форма для зв'язку:</label>
-                    <textarea id="form" name="form"></textarea>
+                
+                <p>
+                    <label for="form">Форма для зв'язку:</label>
+                    <textarea id="form" name="form" rows="4" placeholder="Ваше повідомлення..."></textarea>
                 </p>
-            <p><input type="submit" id="submit" name="submit" value="Відправити">
-                </fieldset>
-                <label for="submit"></label></p>
-                <input type="checkbox" id="verify" name="verify">
-                <label for="verify">Згода на отримання розсилки</label>
-                <p></p>
-                <p><input type="submit" id="submit" name="submit" value="Підписатися">
-                <label for="submit"></label></p>
+
+                <p>
+                    <input type="checkbox" id="verify" name="verify">
+                    <label for="verify">Згода на отримання розсилки</label>
+                </p>
+
+                <button type="submit">Підписатися</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <div>
+            <a href="about.html">Про нас</a>
+            <br>
+            <a href="adress.html">Адреса</a>
+            <p>&copy; 2026 Коледж інформаційних технологій</p>
+        </div>
+    </footer>
 </body>
 </html>
