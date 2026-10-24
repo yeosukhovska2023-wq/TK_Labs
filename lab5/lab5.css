@@ -1,35 +1,63 @@
 body {
+    margin: 0;
     background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
 }
 
-h1 {
-    display: inline-block;
-    color: green;
-    text-align: center; 
-    transition: text-shadow 0.3s ease-in-out;
-    
-}
-h1:hover{
-    transition: text-shadow 0.3s ease-in-out;
-    cursor: pointer;
-    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-    transform: scale(1);
-
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.5;
-
-    color: #991eca;
+a {
+    color: white;
+    text-decoration: none;
 }
 a:hover {
     color: green;
 }
 
-.test-p {
-    font-size: 20px;
-    color: #c300ff;
-    text-decoration: none;
+.hero {
+    height: 485px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: linear-gradient(transparent 50%, #2e3192),
+                url("https://lpnu.ua/sites/default/files/styles/hero/public/2026/10/14/news/38003/veb.JPG?itok=gfrvbGZ3") center / cover;
+}
+.hero h1 {
+    max-width: 800px;
+    margin: 0 20px 50px;
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
 }
 
+.tiles {
+    display: flex;
+}
+.tiles a {
+    flex: 1;
+    padding: 40px 20px;
+    background: #2e3192;
+    text-align: center;
+    font-weight: bold;
+}
+.tiles a:nth-child(even) {
+    background: #262872;
+}
+.tiles i {
+    color: #1fa8e0;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px;
+    background: white;
+}
+.logos img {
+    height: 90px;
+}
+    ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
