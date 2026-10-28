@@ -29,7 +29,7 @@ h2 {
     border-bottom: 1px solid #ddd;
 }
 
-/* Секція 1 */
+
 #section-1 img {
     float: left;
     margin-right: 20px;
@@ -45,14 +45,13 @@ h2 {
     clear: both;
 }
 
-/* Секція 2 */
+
 .multicolumn-text {
     column-width: 300px;
     column-gap: 20px;
 }
 
 
-/* Секція 3 */
 #subscribe-button {
     padding: 10px 20px;
     font-size: 16px;
@@ -66,7 +65,7 @@ h2 {
     background-color: #45a049;
 }
 
-/* Модальне вікно */
+
 #modal.hidden {
     display: none;
 }
